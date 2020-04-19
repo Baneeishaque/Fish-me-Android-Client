@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="365dp"
-        android:layout_height="115dp"
+        android:layout_width="380dp"
+        android:layout_height="121dp"
         android:fontFamily="sans-serif-black"
         android:text="Welcome to Fish.Me"
         android:textAlignment="viewStart"
@@ -20,16 +20,76 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintHorizontal_bias="0.58"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.363" />
+        app:layout_constraintVertical_bias="0.381" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Shop directly from fisherman"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="406dp" />
+        style="@android:style/Widget.Holo.Light.TextView"
+        android:layout_width="376dp"
+        android:layout_height="78dp"
+        android:text="Shop directly from fisherman and have itdelivered to your doorstep"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="208dp"
+        android:layout_height="158dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116"
+        app:srcCompat="@drawable/fishme" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:background="#D84315"
+        android:text="SIGN UP"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.693" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:text="SKIP"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803" />
 </androidx.constraintlayout.widget.ConstraintLayout>
