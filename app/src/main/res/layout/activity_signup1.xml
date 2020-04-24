@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".signup1"
-    android:background="@drawable/fishwallblur">
+    android:background="@drawable/fishwall1">
 
     <TextView
         android:id="@+id/textView3"
@@ -91,6 +91,7 @@
             android:ems="10"
             android:hint="Your Phone Number"
             android:inputType="phone"
+            android:maxLength="10"
             android:textColor="#FCFFFFFF"
             android:textColorHint="#FCFFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
