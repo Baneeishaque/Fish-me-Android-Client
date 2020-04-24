@@ -13,4 +13,6 @@
     <string name="menu_slideshow">Slideshow</string>
 
     <string name="home_second">Home Second</string>
+    <string name="to_get_started_please_enter_your_phone_number">To Get started please enter your phone number</string>
+    <string name="make_sure_the_number_is_correct_cause_we_ll_send_you_a_verification_code">make sure the number is correct cause we\'ll send you a verification code</string>
 </resources>
