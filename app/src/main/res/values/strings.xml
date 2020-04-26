@@ -15,4 +15,21 @@
     <string name="home_second">Home Second</string>
     <string name="to_get_started_please_enter_your_phone_number">To Get started please enter your phone number</string>
     <string name="make_sure_the_number_is_correct_cause_we_ll_send_you_a_verification_code">make sure the number is correct cause we\'ll send you a verification code</string>
+    <string name="shop_directly_from_fisherman_and_have_it_delivered_to_your_doorstep">Shop directly from fisherman and have it delivered to your doorstep</string>
+    <string name="welcome_to_fish_me">Welcome to Fish.Me</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="skip">SKIP</string>
+    <string name="company_logo">company logo</string>
+    <string name="next">NEXT</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="market">Market</string>
+    <string name="orders">Orders</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="profile">Profile</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="home">home</string>
+    <string name="cart">cart1</string>
+    <string name="cart1">cart1</string>
+    <string name="welcome">welcome</string>
+    <string name="main_activity">main_activity</string>
 </resources>
