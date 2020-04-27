@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="text_shopping_cart" type="id" />
+    <item name="text_profile" type="id" />
+    <item name="text_contact_us" type="id" />
+</resources>

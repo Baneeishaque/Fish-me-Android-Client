@@ -11,22 +11,7 @@
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home">
 
-        <action
-            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
-            app:destination="@id/nav_home_second" />
-    </fragment>
-    <fragment
-        android:id="@+id/nav_home_second"
-        android:name="k.nabeel.fishme.ui.home.HomeSecondFragment"
-        android:label="@string/home_second"
-        tools:layout="@layout/fragment_home_second">
-        <action
-            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
-            app:destination="@id/nav_home" />
 
-        <argument
-            android:name="myArg"
-            app:argType="string" />
     </fragment>
 
     <fragment
@@ -34,7 +19,31 @@
         android:name="k.nabeel.fishme.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
-
+    <fragment
+        android:id="@+id/nav_shopping_cart"
+        android:name="k.nabeel.fishme.ui.shopping_cart.ShoppingCartFragment"
+        android:label="@+id/shopping_cart"
+        tools:layout="@layout/shopping_cart_fragment" />
+    <fragment
+        android:id="@+id/nav_market"
+        android:name="k.nabeel.fishme.ui.market.MarketFragment"
+        android:label="@+id/market"
+        tools:layout="@layout/market_fragment" />
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="k.nabeel.fishme.ui.orders.OrdersFragment"
+        android:label="@string/orders"
+        tools:layout="@layout/orders_fragment"/>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="k.nabeel.fishme.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/profile_fragment" />
+    <fragment
+        android:id="@+id/nav_contact_us"
+        android:name="k.nabeel.fishme.ui.contact_us.ContactUsFragment"
+        android:label="@string/contact_us"
+        tools:layout="@layout/contact_us_fragment" />
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="k.nabeel.fishme.ui.slideshow.SlideshowFragment"
