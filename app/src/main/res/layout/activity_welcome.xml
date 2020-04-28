@@ -48,10 +48,10 @@
         android:id="@+id/textView2"
         android:layout_margin="16dp"
         style="@android:style/Widget.Holo.Light.TextView"
-        android:layout_width="376dp"
-        android:layout_height="78dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="@string/shop_directly_from_fisherman_and_have_it_delivered_to_your_doorstep"
-        android:textAlignment="textStart"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
@@ -78,8 +78,8 @@
         android:id="@+id/button"
         android:layout_margin="16dp"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="380dp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:background="#D84315"
         android:text="@string/sign_up"
         android:textAlignment="center"
@@ -97,12 +97,11 @@
     <Button
         android:id="@+id/button2"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="380dp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="@string/skip"
         android:layout_margin="16dp"
         android:textAlignment="center"
-        android:layout_marginTop="8dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
         android:textSize="28sp"
@@ -110,6 +109,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button"
+
 
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
